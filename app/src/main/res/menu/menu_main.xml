@@ -1,0 +1,89 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.solom.finalproject020618.MainActivity">
+    <item
+        android:id="@+id/Settings"
+        android:orderInCategory="100"
+        android:title="@string/Settings"
+        app:showAsAction="never">
+        <menu>
+
+            <item
+                android:orderInCategory="100"
+                android:title="@string/changeLang">
+                <menu>
+
+                    <item
+                        android:id="@+id/English"
+                        android:orderInCategory="100"
+                        android:title="@string/english" />
+                    <item
+                        android:id="@+id/Hebrew"
+                        android:orderInCategory="100"
+                        android:title="@string/hebrew" />
+
+
+                </menu>
+            </item>
+
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/home_button"
+        android:icon="@drawable/ic_home_outline_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/Home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Miles_km"
+        android:orderInCategory="100"
+        android:title="@string/Miles_km" />
+
+
+    <!--<item
+        android:id="@+id/favorites"
+        android:icon="@android:drawable/btn_star_big_on"
+
+
+        android:orderInCategory="100"
+        android:tint="@color/colorRed"
+
+        android:title="@string/favorites"
+        app:showAsAction="always">-->
+
+    <item
+        android:id="@+id/deleteList"
+        android:orderInCategory="100"
+        android:title="@string/delete_list" />
+
+        <item
+            android:id="@+id/favorites"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:orderInCategory="100"
+            android:title="@string/favorites"
+            app:showAsAction="always" >
+
+        <menu>
+
+
+
+
+
+        </menu>
+
+
+    </item>
+
+
+    <item
+        android:id="@+id/exitapp"
+        android:orderInCategory="100"
+        android:title="@string/Exit" />
+
+
+</menu>

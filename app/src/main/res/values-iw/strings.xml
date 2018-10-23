@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Search And Find</string>
+    <string name="Miles_km">קילומטרים/מיילים</string>
+    <string name="Settings">הגדרות</string>
+    <string name="Home">בית</string>
+    <string name="permission_rationale">הרשאת מיקום הכרחית עבור שימוש בסיסי</string>
+    <string name="SearchDialog">חפש לפי:</string>
+    <string name="favorites">מועדפים</string>
+    <string name="showList">הרשימה שלי</string>
+    <string name="changeLang">שפות</string>
+    <string name="Exit">יציאה</string>
+    <string name="delete_list">מחק מועדפים</string>
+    <string name="english">English</string>
+    <string name="hebrew">עברית</string>
+    <string name="youAreHere">אתם נמצאים כאן</string>
+
+
+
+    <string-array name="places_types">
+
+        <item>בר</item>
+        <item>בנק</item>
+        <item>קפה</item>
+        <item>מאפיות</item>
+        <item>כספומט</item>
+        <item>סופרמרקט</item>
+        <item>חנויות</item>
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="background">background</string>
+    <string name="icon">icon</string>
+    <string name="heartfav">heartFav</string>
+    <string name="heartoutlinefav">heartOutlineFav</string>
+
+
+</resources>

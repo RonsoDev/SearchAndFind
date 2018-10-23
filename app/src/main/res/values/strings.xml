@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Search And Find</string>
+    <string name="imageicon">Image Icon</string>
+    <string name="Miles_km">Miles/ km</string>
+    <string name="Settings">Settings</string>
+    <string name="Home">Home</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="SearchDialog">Search By: </string>
+    <string name="favorites">Favorites</string>
+    <string name="showList">My List</string>
+    <string name="changeLang">Languages</string>
+    <string name="Exit">Exit</string>
+    <string name="delete_list">Delete Favorites</string>
+    <string name="english">English</string>
+    <string name="hebrew">Hebrew</string>
+    <string name="youAreHere">You Are Here</string>
+
+
+    <string-array name="places_types">
+
+        <item>Bar</item>
+        <item>Bank</item>
+        <item>Café</item>
+        <item>Bakery</item>
+        <item>ATM</item>
+        <item>Supermarket</item>
+        <item>Store</item>
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="background">background</string>
+    <string name="icon">icon</string>
+    <string name="heartfav">heartFav</string>
+    <string name="heartoutlinefav">heartOutlineFav</string>
+
+
+</resources>
